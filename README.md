@@ -2,8 +2,8 @@
 For USB rescue 
 
 
-![pic](pic/demo.jpg)<br><br><br>
+![pic](demo.jpg)<br><br><br>
 
-![pic](pic/demo1.png)<br><br><br>
+![pic](demo1.png)<br><br><br>
 
-![pic](pic/demo2.png)<br><br><br>
+![pic](demo2.png)<br><br><br>
