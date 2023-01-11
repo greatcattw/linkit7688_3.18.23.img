@@ -13,8 +13,8 @@ Press WiFi key and power on linkit7688
 After 10 sec and release WiFi ky, linkit7688 finds the USB disk, file, and update itself.
 ![pic](pic/demo2.png)<br><br><br>
 
-Conneting type 2 
+Conneting type 2  
 ![pic](pic/demo7.jpg)<br><br><br>
 
-Conneting type 3 
+Conneting type 3  
 ![pic](pic/demo8.jpg)<br><br><br>
