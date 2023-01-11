@@ -20,7 +20,7 @@ Conneting type 3
 ![pic](pic/demo8.jpg)<br><br><br>
 
 
-## 3.18.23 image, update by mtd
+# 3.18.23 image, update by mtd
 This image seems be factory image for Linkit 7688 / 7688 Duo.  
 
 This version is fully supportted by opkg, https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/mt7688/.  
@@ -35,7 +35,7 @@ Boot linkut7688 to linux
 
 Update by :  
 
-# mtd -r write /tmp/run/mounted/sd1/lks7688.img firmware  
+## mtd -r write /tmp/run/mounted/sd1/lks7688.img firmware  
 
 Thus, if you want use this image, you maybe need to update 3.18.109 by USB or you board is ok for booting to  linux,  
 
