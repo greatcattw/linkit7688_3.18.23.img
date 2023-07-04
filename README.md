@@ -26,13 +26,7 @@ Conneting type 3
 
 # 3.18.23 image, update by mtd
 mtd_update_3.18.23/LinkIt_Smart_7688_Firmware_v0.9.4.zip<br>
-This image seems be factory image for Linkit 7688 / 7688 Duo.  <br>
-This version is fully supportted by opkg, https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/mt7688/.  <br>
-But, this image only supports update by mtd and does not support by USB.  <br>
-
-I don't know why, also.  
-
-copy the lks7688.img to USB disk.   
+extract and copy the lks7688.img to USB disk.   
 
 Boot linkut7688 to linux  
 
