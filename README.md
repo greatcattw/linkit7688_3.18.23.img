@@ -1,9 +1,9 @@
 # 3.18.23 image, update by USB
 For USB rescue
-dffa59d1650497662b7ea53ca41701bd  base_image_0.94_3.18.23/lks7688.img
+dffa59d1650497662b7ea53ca41701bd  base_image_0.94_3.18.23/lks7688.img  
 This image seems be factory image for Linkit 7688 / 7688 Duo.  
-This version is fully supportted by opkg, https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/mt7688/. 
-救磚  
+This version is fully supportted by opkg, https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/mt7688/.  
+救磚   
 
 ## Caution , copy lks7688.img to a clean usb disk with FAT32 format.
 
