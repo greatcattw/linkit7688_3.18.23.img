@@ -1,5 +1,8 @@
-# linkit7688_3.18.109.img
-For USB rescue  
+# 3.18.23 image, update by USB
+For USB rescue
+dffa59d1650497662b7ea53ca41701bd  base_image_0.94_3.18.23/lks7688.img
+This image seems be factory image for Linkit 7688 / 7688 Duo.  
+This version is fully supportted by opkg, https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/mt7688/. 
 救磚  
 
 ## Caution , copy lks7688.img to a clean usb disk with FAT32 format.
@@ -20,12 +23,12 @@ Conneting type 3
 ![pic](pic/demo8.jpg)<br><br><br>
 
 
+
 # 3.18.23 image, update by mtd
-This image seems be factory image for Linkit 7688 / 7688 Duo.  
-
-This version is fully supportted by opkg, https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/mt7688/.  
-
-But, this image only supports update by mtd and does not support by USB.  
+mtd_update_3.18.23/LinkIt_Smart_7688_Firmware_v0.9.4.zip<br>
+This image seems be factory image for Linkit 7688 / 7688 Duo.  <br>
+This version is fully supportted by opkg, https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/mt7688/.  <br>
+But, this image only supports update by mtd and does not support by USB.  <br>
 
 I don't know why, also.  
 
@@ -40,3 +43,7 @@ Update by :
 Thus, if you want use this image, you maybe need to update 3.18.109 by USB or you board is ok for booting to  linux,  
 
 then update this image by command of mtd.  
+
+# linkit7688_3.18.109 image
+usb_update_3.18.109/lks7688.img <br>
+For USB rescue
