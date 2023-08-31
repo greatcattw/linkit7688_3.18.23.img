@@ -46,7 +46,7 @@ For USB rescue
 
 # linkit7688duo MCU rescue
 You can find Caterina-smart7688.hex at arduino for linkit7688duo:  
-C:\Users\greatcat\AppData\Roaming\Arduino15\packages\LinkIt\hardware\avr\0.1.8\bootloaders\caterina
+C:\Users\greatcat\AppData\Roaming\Arduino15\packages\LinkIt\hardware\avr\0.1.8\bootloaders\caterina  
 <br>
 copy Caterina-smart7688.hex to linkit7688duo by scp  
 and run the command as below:  
