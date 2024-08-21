@@ -53,19 +53,19 @@ and run the command as below:
 avrdude -p m32u4 -c linuxgpio -v -e -U flash:w:Caterina-smart7688.hex -U lock:w:0x0f:m  
 
 # example of uci
-ONLY for owrt=15.x / k=3.18.x<br>
+ONLY for owrt=15.x / k=3.18.x <br>
 ## sta mode
-uci set dhcp.lan.ignore='0' &&\<br>
-uci set network.lan.proto='static' &&\<br>
-uci set wireless.radio0.linkit_mode='' &&\<br>
-uci set wireless.ap.ssid='xxxxxxxxx' &&\<br>
-uci set wireless.ap.key='xxxxxxxxx' &&\<br>
-uci set wireless.ap.encryption='' &&\<br>
-uci set wireless.sta.disable=0 &&\<br>
-uci set wireless.sta.network='wan' &&\<br>
-uci set wireless.sta.ssid=greatcat3 &&\<br>
-uci set wireless.sta.key=123456789 &&\<br>
-uci set wireless.sta.encryption=psk2 &&\<br>
+uci set dhcp.lan.ignore='0' &&\ <br>
+uci set network.lan.proto='static' &&\ <br>
+uci set wireless.radio0.linkit_mode='' &&\ <br>
+uci set wireless.ap.ssid='xxxxxxxxx' &&\ <br>
+uci set wireless.ap.key='xxxxxxxxx' &&\ <br>
+uci set wireless.ap.encryption='' &&\ <br>
+uci set wireless.sta.disable=0 &&\ <br>
+uci set wireless.sta.network='wan' &&\ <br>
+uci set wireless.sta.ssid=greatcat3 &&\ <br>
+uci set wireless.sta.key=123456789 &&\ <br>
+uci set wireless.sta.encryption=psk2 &&\ <br>
 uci commit <br>
 <br>
 wifi_mode sta <br>
