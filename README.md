@@ -70,6 +70,8 @@ uci commit <br>
 <br>
 wifi_mode sta <br>
 <br>
+Mt7688 as ethernet bridge. Browser -> PC -> ethernet -> mt7688 -> WiFi -> phone <br>
+![pic](pic/router_bridge_list.png)<br>
 ## ap mode
 uci set dhcp.lan.ignore='0' &&\ <br>
 uci set network.lan.proto='static' &&\ <br>
