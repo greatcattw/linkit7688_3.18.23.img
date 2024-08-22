@@ -9,6 +9,7 @@ This version is fully supportted by opkg, https://archive.openwrt.org/chaos_calm
 ## Caution , copy lks7688.img to a clean usb disk with FAT32 format.
 
 ![pic](pic/demo.jpg)<br><br><br>
+![pic](pic/demo9.jpg)<br><br><br>
 
 Press WiFi key and power on linkit7688  
 ![pic](pic/demo1.png)<br><br><br>
