@@ -57,7 +57,7 @@ avrdude -p m32u4 -c linuxgpio -v -e -U flash:w:Caterina-smart7688.hex -U lock:w:
 
 # example of uci
 ONLY for owrt=15.x / k=3.18.x <br>
-## sta mode
+## Setting of WiFi sta mode
 uci set dhcp.lan.ignore='0' &&\ <br>
 uci set network.lan.proto='static' &&\ <br>
 uci set wireless.radio0.linkit_mode='' &&\ <br>
@@ -75,7 +75,7 @@ wifi_mode sta <br>
 <br>
 Mt7688 as ethernet bridge. Browser -> PC -> ethernet -> mt7688 -> WiFi -> phone <br>
 ![pic](pic/router_bridge_list.png)<br>
-## ap mode
+## Setting of WiFi AP mode
 uci set dhcp.lan.ignore='0' &&\ <br>
 uci set network.lan.proto='static' &&\ <br>
 uci set wireless.radio0.linkit_mode='ap' &&\ <br>
@@ -91,7 +91,7 @@ uci commit<br>
 <br>
 wifi_mode ap<br>
 
-## WiFi router mode
+## Setting of WiFi router mode
 ![pic](pic/wifi_router_structure.png)<br>
 
 uci set network.lan.type='' &&\ <br>
@@ -113,8 +113,8 @@ sleep 3 &&\ <br>
 ![pic](pic/wifi_router_structure_b.png)<br>
 MT7688 Ethernet is DHCP client mode.<br>
 MT7688 WiFi is AP mode and DHCP server mode.<br>
-PC#inside 可以ping 到PC#outside 192.168.123.121<br>
-PC#outside可以ping到mt7688 192.168.123.178<br>
+PC#inside is able to ping PC#outside 192.168.123.121<br>
+PC#outside is able to ping mt7688 192.168.123.178<br>
 <br>
 ![pic](pic/wifi_router_a.png)<br>
 ![pic](pic/wifi_router_b.png)<br>
