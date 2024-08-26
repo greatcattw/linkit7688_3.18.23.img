@@ -90,3 +90,13 @@ uci set wireless.sta.encryption='psk2' &&\ <br>
 uci commit<br>
 <br>
 wifi_mode ap<br>
+
+## WiFi router mode
+![pic](pic/wifi_router_structure.png)<br>
+![pic](pic/wifi_router_structure_b.png)<br>
+![pic](pic/wifi_router_a.png)<br>
+![pic](pic/wifi_router_b.png)<br>
+![pic](pic/wifi_router_c.png)<br>
+
+
+If the document help you, how about buy street cats a fish can ?
