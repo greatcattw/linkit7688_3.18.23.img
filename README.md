@@ -57,7 +57,7 @@ avrdude -p m32u4 -c linuxgpio -v -e -U flash:w:Caterina-smart7688.hex -U lock:w:
 
 # example of uci
 ONLY for owrt=15.x / k=3.18.x <br>
-## Setting of WiFi sta mode
+## Setting of WiFi sta mode (WiFi to ethernet router)
 uci set dhcp.lan.ignore='0' &&\ <br>
 uci set network.lan.proto='static' &&\ <br>
 uci set wireless.radio0.linkit_mode='' &&\ <br>
