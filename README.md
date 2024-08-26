@@ -93,7 +93,29 @@ wifi_mode ap<br>
 
 ## WiFi router mode
 ![pic](pic/wifi_router_structure.png)<br>
+
+uci set network.lan.type='' &&\ <br>
+uci set dhcp.lan.ra_management='1' &&\ <br>
+uci set network.lan._orig_ifname='ra0' &&\ <br>
+uci set network.lan._orig_bridge='false' &&\ <br>
+uci set network.lan.ifname='ra0' &&\ <br>
+uci commit &&\ <br>
+sleep 3 &&\ <br>
+/etc/init.d/network restart <br>
+ <br>
+uci set network.wan._orig_ifname='eth0' &&\ <br>
+uci set network.wan._orig_bridge='false' &&\ <br>
+uci set network.wan.ifname='eth0' &&\ <br>
+uci commit &&\ <br>
+sleep 3 &&\ <br>
+/etc/init.d/network restart <br>
+ <br>
 ![pic](pic/wifi_router_structure_b.png)<br>
+MT7688 Ethernet is DHCP client mode.<br>
+MT7688 WiFi is AP mode and DHCP server mode.<br>
+PC#inside 可以ping 到PC#outside 192.168.123.121<br>
+PC#outside可以ping到mt7688 192.168.123.178<br>
+<br>
 ![pic](pic/wifi_router_a.png)<br>
 ![pic](pic/wifi_router_b.png)<br>
 ![pic](pic/wifi_router_c.png)<br>
