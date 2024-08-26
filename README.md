@@ -6,7 +6,9 @@ This image seems be factory image for Linkit 7688 / 7688 Duo.
 This version is fully supportted by opkg, https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/mt7688/.  
 救磚   
 
-## Caution , copy lks7688.img to a clean usb disk with FAT32 format.
+## Caution  
+### copy lks7688.img to a clean usb disk with FAT32 format.
+### first, please wait 2minutes or run command of sync to wait all works finished.
 
 ![pic](pic/demo.jpg)<br><br><br>
 ![pic](pic/demo9.jpg)<br><br><br>
