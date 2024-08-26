@@ -8,7 +8,7 @@ This version is fully supportted by opkg, https://archive.openwrt.org/chaos_calm
 
 ## Caution  
 ### copy lks7688.img to a clean usb disk with FAT32 format.
-### first, please wait 2minutes or run command of sync to wait all works finished.
+### First boot, please wait 2minutes or run command of sync to wait all works is finished.
 
 ![pic](pic/demo.jpg)<br><br><br>
 ![pic](pic/demo9.jpg)<br><br><br>
